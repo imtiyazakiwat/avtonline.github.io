@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Data Entry Form</title>
+    <!-- Include Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+
+    <!-- Include jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Include Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2"><strong>1. Farmer Code</strong></div>
+        <div class="col-sm-2"><strong>2. No. of Bags</strong></div>
+        <div class="col-sm-2"><strong>3. Qty</strong></div>
+        <div class="col-sm-2"><strong>4. Less Bag Weight</strong></div>
+        <div class="col-sm-2"><strong>5. Net Wt</strong></div>
+        <div class="col-sm-2"><strong>6. C. Qty</strong></div>
+      </div>
+      <div id="rows-container">
+        <!-- Rows will be dynamically added here -->
+      </div>
+      <div class="row" id="total-row">
+        <div class="col-sm-2"><strong>Total</strong></div>
+        <div class="col-sm-2">
+          <input type="text" class="form-control" placeholder="0" readonly />
+        </div>
+        <div class="col-sm-2">
+          <input type="text" class="form-control" placeholder="0.00" readonly />
+        </div>
+        <div class="col-sm-2">
+          <input type="text" class="form-control" placeholder="0.00" readonly />
+        </div>
+        <div class="col-sm-2">
+          <input type="text" class="form-control" placeholder="0.00" readonly />
+        </div>
+        <div class="col-sm-2">
+          <input type="text" class="form-control" placeholder="0.00" readonly />
+        </div>
+      </div>
+      <button class="btn btn-primary mt-3" id="add-row-btn">Add Row</button>
+    </div>
+
+    <script>
+ 
+
+
+    </script>
+  </body>
+</html>
