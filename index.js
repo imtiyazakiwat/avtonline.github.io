@@ -1,4 +1,7 @@
 $(document).ready(function () {
+    caches.open('my-cache').then(function(cache) {
+  cache.add('/my-file.txt');
+   });
     // Add event listener to the "Add Row" button
     $("#add-row-btn").click(function () {
       addRow();
